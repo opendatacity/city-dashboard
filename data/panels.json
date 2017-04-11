@@ -1,0 +1,112 @@
+{
+  "panels": [
+    {
+      "title": "Bußgelder",
+      "icon": "euro.svg",
+      "iconAltText": "Euro",
+      "valueUnit": "euro.svg",
+      "valueUnitAltText": "Euro",
+      "topDescription": "ruhender Verkehr",
+      "bottomPanel": {
+        "topLabel": "Bußgelder",
+        "bottomLabel": "im fließenden Verkehr: ",
+        "bottomValue": "481.429 €"
+      },
+      "rawdata": {
+        "2014": 628287,
+        "2015": 701730,
+        "subset": 481429
+      }
+    },
+    {
+      "title": "Hauptwohnsitze",
+      "icon": "house.svg",
+      "icon-alt": "Haus",
+      "startAt": 103252,
+      "topDescription": "Einwohner",
+      "bottomPanel": {
+        "topLabel": "Bevölkerung",
+        "bottomLabel": "mit Nebenwohnsitz:",
+        "bottomValue": "2.950"
+      },
+      "rawdata": {
+        "2014": 103252,
+        "2015": 104715,
+        "subset": 2950
+      }
+    },
+    {
+      "panelTemplate": "NamePanel",
+      "title": "Neugeborene",
+      "icon": "stroller.svg",
+      "iconAltText": "Kinderwagen",
+      "topDescription": "",
+      "bottomPanel": {
+        "topLabel": "Mädchen:",
+        "bottomLabel": "Jungen:",
+        "bottomValue": ""
+      },
+      "rawdata": {
+        "2014": 2660,
+        "2015": 2071
+      }
+    },
+    {
+      "title": "Wasserverbrauch",
+      "icon": "drop.svg",
+      "iconAltText": "Wasser",
+      "valueUnit": "euro.svg",
+      "valueUnitAltText": "Euro",
+      "topDescription": "für städt. Gebäude",
+      "bottomPanel": {
+        "topLabel": "Gesamtverbrauch",
+        "bottomLabel": "cbm:",
+        "bottomValue": "80.646"
+      },
+      "rawdata": {
+        "2015": 80646,
+        "2014": 72758,
+        "label": "euros-per-cbm",
+        "multiplier": 1.8
+      }
+    },
+    {
+      "title": "Stromverbrauch",
+      "icon": "powerplug.svg",
+      "iconAltText": "Elektrizität",
+      "valueUnit": "euro.svg",
+      "valueUnitAltText": "Euro",
+      "topDescription": "für städt. Gebäude",
+      "bottomPanel": {
+        "topLabel": "Gesamtverbrauch",
+        "bottomLabel": "MWh:",
+        "bottomValue": "4.700"
+      },
+      "rawdata": {
+        "2015": 4700,
+        "2014": 4427,
+        "label": "euros-per-mwh",
+        "multiplier": 219.41
+      }
+    },
+    {
+      "title": "Heizenergie",
+      "icon": "thermometer.svg",
+      "iconAltText": "Heizung",
+      "valueUnit": "euro.svg",
+      "valueUnitAltText": "Euro",
+      "topDescription": "für städt. Gebäude",
+      "bottomPanel": {
+        "topLabel": "Gesamtverbrauch",
+        "bottomLabel": "MWh:",
+        "bottomValue": "17.855"
+      },
+      "rawdata": {
+        "2015": 17855,
+        "2014": 16509,
+        "label": "euros-per-mwh",
+        "multiplier": 78.08
+      }
+    }
+  ]
+}
